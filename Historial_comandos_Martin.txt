@@ -1,0 +1,37 @@
+install bzip
+sudo apt install bzip
+sudo apt update
+sudo apt upgrade
+sudo apt install bzip
+sudo apt install bzip2
+cat $HOME/.ssh/*.pub
+sudo reboot
+cd repogit/
+ls
+cd TP_AySO/
+grep"model name"/proc/cpuinfo | head -n1 >> datos_usuarios.txt
+grep "model name"/proc/cpuinfo | head -n1 >> datos_usuarios.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+git add .
+git status
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git push
+ls
+rm datos_usuarios.txt 
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add .
+git status
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat <<EOF >> README.md
+Alumno: Martin Urriche
+División: 315
+Turno: Noche
+EOF
+
+git add README.md datos_usuario.txt 
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git status
+git push
+history -a
